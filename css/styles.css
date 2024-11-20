@@ -16,6 +16,26 @@ body {
 }
 
 /* header styles */
+header {
+	text-align: center;
+	padding: 20px 0;
+	background-color: #ffcbcb;
+	color: #fff;
+	border-bottom: 4px solid #ff6f6f;
+}
+header h1 {
+	font-size: 3rem;
+	margin: 10px 0;
+	color: #fff;
+}
+
+header p {
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+}
+
 
 h1 {
   font-size: 3rem;
