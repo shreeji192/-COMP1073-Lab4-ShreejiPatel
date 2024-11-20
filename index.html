@@ -16,18 +16,26 @@
     <p>Your one-stop destination for delicious, creamy delights. 🍦</p>
 
 </header>
-<section>
+<!-- Ice Cream Section -->
+<section id="flavors">
+	<h2>Our Top Ice Cream Flavors</h2>
+	<div id="flavors-container">
+		<!-- Ice Cream cards will be dynamically generated here -->
+	</div>
+</section>
+
+<!-- Custom Order Section -->
+<section id="custom-order">
 	<h2>Customize Your Ice Cream!</h2>
-    <form id="iceCreamForm">
-        <label for="iceCreamInput">Enter Your Favorite Ice Cream Options (JSON format):</label><br />
-        <textarea id="iceCreamInput" rows="6" cols="50" placeholder='{"flavor": "vanilla", "topping": "sprinkles", "size": "large"}'></textarea><br />
-        <button type="button" id="customizeIceCream">Submit Your Order</button>
-    </form>
-    <div id="orderOutput">
-        <h3>Your Ice Cream Order:</h3>
-        <pre id="parsedOrder"></pre>
-    </div>
-	
+	<form id="iceCreamForm">
+		<label for="iceCreamInput">Enter Your Favorite Ice Cream Options (JSON format):</label><br />
+		<textarea id="iceCreamInput" rows="6" cols="50" placeholder='{"flavor": "vanilla", "topping": "sprinkles", "size": "large"}'></textarea><br />
+		<button type="button" id="customizeIceCream">Submit Your Order</button>
+	</form>
+	<div id="orderOutput">
+		<h3>Your Ice Cream Order:</h3>
+		<pre id="parsedOrder"></pre>
+	</div>
 </section>
 	<!-- Proceed to js/json.js for the remainder of the lesson -->
 </body>
