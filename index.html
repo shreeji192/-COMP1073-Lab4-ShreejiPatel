@@ -12,12 +12,21 @@
 <body>
 	<!-- STEP 1: Build out a HEADER and a SECTION element -->
 <header>
-	<h1>Welcome to Sweet Treats Ice Cream Shop!</h1>
+	<h1>Welcome to Sweet Treats I Scream Shop!</h1>
     <p>Your one-stop destination for delicious, creamy delights. 🍦</p>
 
 </header>
 <section>
-
+	<h2>Customize Your Ice Cream!</h2>
+    <form id="iceCreamForm">
+        <label for="iceCreamInput">Enter Your Favorite Ice Cream Options (JSON format):</label><br />
+        <textarea id="iceCreamInput" rows="6" cols="50" placeholder='{"flavor": "vanilla", "topping": "sprinkles", "size": "large"}'></textarea><br />
+        <button type="button" id="customizeIceCream">Submit Your Order</button>
+    </form>
+    <div id="orderOutput">
+        <h3>Your Ice Cream Order:</h3>
+        <pre id="parsedOrder"></pre>
+    </div>
 	
 </section>
 	<!-- Proceed to js/json.js for the remainder of the lesson -->
