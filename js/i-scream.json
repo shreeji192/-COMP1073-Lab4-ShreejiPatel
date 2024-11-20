@@ -25,6 +25,23 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
-    }
+    },
+      {
+        "name": "Strawberry  Fudge ",
+        "calories": 380,
+        "type": "ice cream",
+        "ingredients": ["strawberry ice cream", "choclate fugdge"
+      ],
+        "image": "strawberry-sprinkle.svg"
+      },
+      {
+        "name": "Key-Lime     Pie",
+        "calories": 320,
+        "type": "ice cream",
+        "ingredients": ["key lime", "whipped cream", "sugar crystals"
+      ],
+        "image": "ice-cream-xtra1.svg"
+      }
+    
   ]
 }
